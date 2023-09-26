@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+
+  <link rel="stylesheet" href="./assets/vendor/aos/css/aos.css">
+  <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Header Section -->
+  <header>
+    <nav id="header" class="navbar navbar-expand-lg  fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Car Rental</a>
+        <div id="nav-icon3" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav d-lg-flex">
+            <li class="nav-item">
+              <a class="nav-link active" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#our-unit">Unit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header Section -->
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-lg-6 order-lg-1 order-2 text-center text-lg-start" data-aos="fade-up" data-aos-delay="200">
+            <h1>Unlock Your Travel Experience</h1>
+            <h4>Discover the ultimate in car rental luxury and convenience with our premium car rental service.
+              Whether
+              you're traveling for business or pleasure.
+            </h4>
+            <div class="d-flex gap-2 justify-content-center justify-content-lg-start my-3">
+              <a href="#contact-us" class="btn">Contact Us</a>
+              <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal">
+                Launch demo modal
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-2 order-1 text-center" data-aos="fade-left" data-aos-delay="400">
+            <img src="./assets/images/fortuner.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- About Us -->
+
+    <section id="about-us" class="d-flex align-items-center">
+      <div class="container">
+        <div class="card book-now">
+          <div class="row p-3">
+            <div class="col-6">
+              <label for="">Pickup Date</label>
+              <input type="date" class="form-control" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="col-6">
+              <label for="">Pickup Date</label>
+              <input type="date" class="form-control" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="col-12 d-grid">
+              <label for="">&nbsp;</label>
+              <button class="btn">Book Now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="section-title" data-aos="fade-up" data-aos-delay="200">
+          <h2>
+            <span>About Us</span>
+          </h2>
+        </div>
+        <div class="row content d-flex align-items-center justify-content-center" data-aos="fade-up"
+          data-aos-delay="200">
+          <div class="col-lg-8 text-center text-lg-start">
+            <p>
+              At [Your Company Name], we're more than just a car rental service – we're your travel partner on the
+              road. With years of experience and a passion for delivering top-tier service, we've become the go-to
+              choice for individuals and businesses seeking reliable, affordable, and stylish transportation solutions.
+              Our diverse fleet, competitive rates, and commitment to customer satisfaction make us the driving force
+              behind your journeys, whether it's a quick city escape or a cross-country adventure.
+            </p>
+            <p>
+              As a forward-thinking car rental company, we prioritize your convenience and safety. Our well-maintained
+              vehicles are equipped with the latest technology and safety features, while our user-friendly booking
+              process and flexible rental options ensure that your travel plans fit seamlessly into your lifestyle.
+              Discover the freedom of the open road with [Your Company Name], where every mile is a memorable
+              experience. Join us today, and let's make your travel dreams a reality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Our Unit Section -->
+    <section id="our-unit">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>
+            <span>Our Unit</span>
+          </h2>
+        </div>
+        <div id="car-selection-container">
+          <div class="car-category text-center my-5" data-aos="fade-up" data-aos-delay="100">
+            <span class="badge rounded-pill active">All</span>
+            <span class="badge sedan rounded-pill">Sedan</span>
+            <span class="badge suv rounded-pill">SUV</span>
+            <span class="badge van rounded-pill">Van</span>
+          </div>
+          <div class="row content text-center">
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item sedan" data-aos="zoom-in" data-aos-delay="200">
+              <img src="./assets/images/unit/Vios.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Toyota Vios</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item suv" data-aos="zoom-in" data-aos-delay="300">
+              <img src="./assets/images/unit/Xpander.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Mitsubishi Xpander</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item sedan" data-aos="zoom-in" data-aos-delay="400">
+              <img src="./assets/images/unit/Emgrand.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Geely Emgrand</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item van" data-aos="zoom-in" data-aos-delay="500">
+              <img src="./assets/images/unit/Grandia.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Toyota Hi-Ace Grandia</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item sedan" data-aos="zoom-in" data-aos-delay="600">
+              <img src="./assets/images/unit/Accent.png" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Hyundai Accent</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item sedan" data-aos="zoom-in" data-aos-delay="700">
+              <img src="./assets/images/unit/ZS.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>MG ZS</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item suv" data-aos="zoom-in" data-aos-delay="800">
+              <img src="./assets/images/unit/Montero.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Mitsubishi Montero</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 car-item sedan" data-aos="zoom-in" data-aos-delay="900">
+              <img src="./assets/images/unit/Picanto.jpg" class="img-fluid" alt="">
+              <div class="overlay">
+                <div class="text">
+                  <p>Kia Picanto</p>
+                  <button class="btn btn-sm back-to-details">Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="car-detail-container" class="d-none">
+          <button class="btn" id="back-to-selection">Back</button>
+          <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-lg-7">
+              <img id="car-image" src="" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-5 text-center text-lg-start mt-lg-0 mt-5">
+              <div class="row">
+                <div class="col-6 mb-lg-5 mb-3">
+                  <h4 class="mb-0">Brand</h4>
+                  <h1 id="car-brand"></h1>
+                </div>
+                <div class="col-6 mb-lg-5 mb-3">
+                  <h4 class="mb-0">Name</h4>
+                  <h1 id="car-name"></h1>
+                </div>
+                <div class="col-6 mb-lg-5 mb-3">
+                  <h4 class="mb-0">Transmission</h4>
+                  <h1 id="car-transmission"></h1>
+                </div>
+                <div class="col-6 mb-lg-5 mb-3">
+                  <h4 class="mb-0">Fuel</h4>
+                  <h1 id="car-fuel"></h1>
+                </div>
+                <div class="col-6 mb-lg-5 mb-3">
+                  <h4 class="mb-0">Capacity</h4>
+                  <h1 id="car-capacity"></h1>
+                </div>
+                <div class="col-6 mb-lg-5 mb-3">
+                  <h4 class="mb-0">Color</h4>
+                  <h1 id="car-color"></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Unit Section -->
+
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+      <div class="section-title" data-aos="fade-up">
+        <h2>
+          <span>Testimonial</span>
+        </h2>
+      </div>
+      <div class="container">
+        <div class="row content gap-lg-0 gap-4">
+          <div class="col-lg-4">
+            <div class="card p-4" data-aos="zoom-in" data-aos-delay="100">
+              <div class="comments">
+                <h5 class="truncate-1">A Smooth Ride</h5>
+                <p class="truncate-3">I rented a car from [Your Company Name], and it was a breeze. Easy booking,
+                  clean car, and friendly
+                  service. Highly
+                  recommended!</p>
+              </div>
+              <hr>
+              <div class="d-flex align-items-center gap-3">
+                <div class="avatar p-2">
+                  <img src="./assets/images/user.svg" alt="">
+                </div>
+                <div>
+                  <h6>Albert Willis</h6>
+                  <p>Car RenterLee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card p-4" data-aos="zoom-in" data-aos-delay="200">
+              <div class="comments">
+                <h5 class="truncate">Smooth Ride, Exceptional Service!</h5>
+                <p class="truncate-3">"I rented a car from [Your Company Name], and it was a seamless experience from
+                  booking to drop-off.
+                  The vehicle was
+                  clean and well-maintained, and the staff was friendly and efficient. I'll definitely choose [Your
+                  Company Name] for my
+                  future travels.</p>
+              </div>
+              <hr>
+              <div class="d-flex align-items-center gap-3">
+                <div class="avatar p-2">
+                  <img src="./assets/images/user.svg" alt="">
+                </div>
+                <div>
+                  <h6>Barbara Cain</h6>
+                  <p>Car Renter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card p-4" data-aos="zoom-in" data-aos-delay="300">
+              <div class="comments">
+                <h5 class="truncate">A Seamless Journey From Start to Finish!</h5>
+                <p class="truncate-3">From booking online to returning the car, [Your Company Name] made my trip
+                  effortless and enjoyable.
+                  Exceptional service!</p>
+              </div>
+              <hr>
+              <div class="d-flex align-items-center gap-3">
+                <div class="avatar p-2">
+                  <img src="./assets/images/user.svg" alt="">
+                </div>
+                <div>
+                  <h6>Timothy Pena</h6>
+                  <p>Car Renter</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
+        <div class="section-title">
+          <h2>
+            <span>Contact Us</span>
+          </h2>
+        </div>
+        <div class="row content gap-lg-0 gap-4">
+          <div class="col-lg-6">
+            <div class="card p-3">
+              <div class="d-flex align-items-center gap-3 my-3">
+                <div class="icon p-2">
+                  <img src="./assets/images/contact/map-pin.svg" alt="">
+                </div>
+                <div class="text">
+                  <h4>Location:</h4>
+                  <p>Candelaria, Quezon 4323</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3 my-3">
+                <div class="icon p-2">
+                  <img src="./assets/images/contact/mail.svg" alt="">
+                </div>
+                <div>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3 my-3">
+                <div class="icon p-2">
+                  <img src="./assets/images/contact/smartphone.svg" alt="">
+                </div>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+63 912 345 67890</p>
+                </div>
+              </div>
+
+              <div class="my-3">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247819.59998542885!2d121.27613550640064!3d13.947811168030963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd47b54549d239%3A0x3a7f63a1c11ab366!2sCandelaria%2C%20Quezon%2C%20Philippines!5e0!3m2!1sen!2sus!4v1695472408467!5m2!1sen!2sus"
+                  style="border:0; width: 100%; height: 290px;"></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card d-flex flex-column justify-content-center p-3">
+              <div class="mb-3">
+                <label class="form-label">Name</label>
+                <input type="name" class="form-control" placeholder="Name">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email address</label>
+                <input type="email" class="form-control" placeholder="Email Address">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Subject</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject">
+              </div>
+              <div class="mb-4">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="7"></textarea>
+              </div>
+              <div class="d-grid">
+                <button class="btn">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Us Section -->
+  </main>
+
+  <!-- Footer Section-->
+  <footer>
+    <div class="container">
+      <div class="row content text-center">
+        <div class="col-12 p-4 pb-2">
+          <div class="d-flex justify-content-center align-content-center gap-2">
+            <div class="icon p-2">
+              <img src="./assets/images/social-media/facebook.svg" alt="">
+            </div>
+            <div class="icon p-2">
+              <img src="./assets/images/social-media/twitter.svg" alt="">
+            </div>
+            <div class="icon p-2">
+              <img src="./assets/images/social-media/instagram.svg" alt="">
+            </div>
+            <div class="icon p-2">
+              <img src="./assets/images/social-media/github.svg" alt="">
+            </div>
+            <div class="icon p-2">
+              <img src="./assets/images/social-media/linkedin.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 p-4 pt-2">
+          <p>All Rights Reserved. 2023</p>
+          <p>Designed by <strong>Leo Angelo</strong></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Section -->
+
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/vendor/aos/js/aos.js"></script>
+  <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
